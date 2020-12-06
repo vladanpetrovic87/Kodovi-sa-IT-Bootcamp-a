@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(23, 128, 136);
+}
+
+th {
+    border: 1px red solid;
+}
+
+td {
+    border: 1px black solid;
+    padding: 10px;
+}
+
+ .prviRed {
+     color: red;
+ }
+
+ .drugiRed {
+     background-color: yellow;
+ }
+
+ .trecaKolona {
+     background-color: yellow;
+ }
+
+ #tabela tr:nth-child(odd) {
+     font-style: italic;
+ }
+
+ #tabela tr:nth-child(even):hover {
+     background-color: yellow;
+ }
+
+ #tabela tr:nth-child(3n) {
+    color: blue;
+}

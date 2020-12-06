@@ -1,0 +1,59 @@
+.bordo {
+    color: rgb(107, 19, 19);
+}
+
+.crvena {
+    color: red;
+}
+
+.ljubicasta {
+    color: purple;
+}
+
+.narandzasta {
+    color: red;
+}
+
+a {
+    color: orange;
+}
+
+body {
+    background-color: rgb(236, 201, 134);
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.naslov {
+    text-align: center;
+}
+
+.paragraf {
+    text-align: right;
+    font-size: 24px;
+}
+
+img {
+    border: dashed 2px;
+}
+
+.treciNaslov {
+    text-align: center;
+    color: green;
+    font-family: sans-serif;
+}
+
+a:hover {
+    background-color: yellow;
+  }
+
+a:visited {
+    color: green;
+  }
+
+
+
+
+
+
+

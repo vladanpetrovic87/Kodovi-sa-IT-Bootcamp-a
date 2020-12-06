@@ -1,0 +1,31 @@
+h2 {
+    text-align: center;
+    color: #2d1b92;
+}
+
+body {
+    background-color: grey;
+}
+
+img {
+    border: double;
+    border-color: red;
+}
+
+.plava {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+#zuta {
+    color: yellow;
+}
+
+a {
+    color: red;
+}
+
+a:hover {
+    color: green;
+}
