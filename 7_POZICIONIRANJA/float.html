@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            background-color: darkgrey;
+        }
+
+        #float p {
+            float: right;
+            width: 250px;
+            margin: 20px;
+        }
+
+        #float p:first-child {
+            float: left;
+        }
+
+        #float {
+            overflow: hidden;
+        }
+        
+        .topbar ul {
+            overflow: hidden;
+            position: fixed;
+            top: 0;
+            width: 100%;
+        }
+
+        .topbar ul li {
+            display: block;
+            float: left;
+            border: 1px solid white;
+            background-color: rgb(78, 74, 74); 
+            width: 24.7%; 
+            height: 30px;  
+            text-align: center;
+            font-size: 14px;
+            padding-top: 12px;
+            position: relative;
+            right: 40px;
+            list-style: none;
+            line-height: 20px;
+        }
+
+        .topbar li:hover {
+            background-color: red;
+        }
+        
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        * {
+            margin: 0;
+        }
+
+       
+        .topbar ul .vertical .dropdown li {
+            background-color: white;
+            float: left;
+            color: black;
+            display: block;
+            list-style: none;
+            position: absolute;
+            min-width: 24.8%;
+            z-index: 1;
+        }
+
+        .topbar ul .vertical .dropdown li a {
+            background-color: transparent;
+            color: black;
+            display: block;
+        }
+
+        .topbar ul .vertical .dropdown {
+            display: block;
+            position: absolute;
+            background-color: white;
+        }
+
+        .topbar {
+            position: relative;
+            display: inline-block;
+        }
+
+        .topbar .vertical .dropdown li {
+            text-decoration: none;
+            display: block;
+        }
+    
+    </style>
+</head>
+<body>
+    <p>Test paragraf....</p>
+    <div id="float">
+        <p>Tekst prvog paragrafa</p>
+        <p>Tekst drugog paragrafa</p>
+        <p>Tekst treceg paragrafa</p>
+    </div>
+    <p>Jos jedan test paragraf.....</p>
+
+    <nav class="topbar">
+        <ul>
+            <li><a href="https://itbootcamp.rs/"> Home </a></li>
+            <li><a href="https://itbootcamp.rs/">Our Mission</a></li>
+            <li><a href="https://itbootcamp.rs/">Our Ingridients</a></li>
+            <div class="dropdown">
+            <li class="vertical"><a href="https://itbootcamp.rs/">Satisfied Customers</a>
+                <ul class="dropdown">
+                    <li><a href="#">Pera Peric</a></li>
+                    <li><a href="#">Laza Lazic</a></li>
+                    <li><a href="#">Mika Mikic</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #div1 {
+            background-color: brown;
+            width: 400px;
+            height: 50px;
+            position: relative;
+            top: 30px;
+            left: 60px;
+        }
+
+        .news {
+            background-color: chocolate;
+            width: 600px;
+            height: 300px;
+            position: relative;
+            left: 60px;
+            top: 30px;
+        }
+
+        .news img {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            width: 300px;
+        }
+
+        .news h5 {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            margin: 0;
+        }
+
+        header {
+            position: relative;
+            background-image: url(pizza.jpg);
+            background-size: cover;
+            width: 100%;
+            height: 500px;
+            color: white;
+        }
+
+        .pizza h4 {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        footer {
+            background-color: violet;
+            width: 100%;
+            position: relative;
+            bottom: 0;
+        }
+
+        * {
+            margin: 0;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="pizza">
+            <h4>"Welcome to ITBootcamp pizza site!"</h4>
+        </div>
+    </header>
+
+    <footer>
+        <p>ITBootcamp</p>
+    </footer>
+    
+    <div id="div1">Tekst div 1</div>
+    <div class="news">
+        <img src="download.webp" alt="">
+        <h5>Rezultati predsedničkih izbora</h5>
+    </div>
+
+    
+</body>
+</html>
