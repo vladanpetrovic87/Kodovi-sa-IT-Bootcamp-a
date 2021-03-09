@@ -1,0 +1,27 @@
+.info {
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.tabela, .tabela td, .tabela th {
+    border: 1px solid black;
+    padding: 4px;
+}
+
+.tabela tr:first-child {
+    background-color: cadetblue;
+}
+
+.lista {
+    background-color: coral;
+}
+
+ol:nth-child(odd) {
+    background-color: cornflowerblue;
+}
+
+li:first-child {
+    background-color: cyan;
+}
+
